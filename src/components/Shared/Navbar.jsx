@@ -25,9 +25,9 @@ function Navbar({isLoading}) {
     
     }
     return (
-        <div className='flex justify-between py-3 w-full px-10 bg-white font-mont'>
+        <div className='flex justify-between items-center py-3 w-full px-3 lg:px-10 bg-white font-mont'>
             <h5 className='text-red-500 font-bold text-xl'>EduManage.</h5>
-            <p className='font-semibold'>Welcome <span className='text-red-500'>{user?.name}</span></p>
+            <p className='font-semibold hidden md:block'>Welcome <span className='text-red-500'>{user?.name}</span></p>
             <div className="flex gap-10 font-semibold items-center">
                 <a href="/">Home</a>
                 <Button onClick={logOut} loading={isLoading} type="default" className='bg-red-500 text-white w-24 h-10'>

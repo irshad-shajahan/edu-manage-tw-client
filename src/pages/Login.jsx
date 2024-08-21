@@ -44,7 +44,7 @@ function Login() {
   return (
     <div className='w-full h-screen flex flex-col justify-center items-center font-mont'>
       <h2 className='font-[600] text-4xl -mt-14 mb-14 text-red-500'>EduManage.</h2>
-      <div className='w-[40%] h-[60%] bg-white shadow-xl flex flex-col items-center justify-center px-20 gap-10'>
+      <div className='w-[90%] lg:w-[40%] h-[50%] lg:h-[60%] bg-white shadow-xl flex flex-col items-center justify-center px-5 lg:px-20 gap-5 lg:gap-10'>
         <h5 className='text-black font-bold text-xl'>Teacher's Login</h5>
         <Input 
           className='' 

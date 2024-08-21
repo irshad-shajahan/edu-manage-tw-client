@@ -17,7 +17,7 @@ function Home() {
   return (
     <div className='h-screen w-full'>
       <Navbar isLoading={isLoading} />
-      <div className='bg-white px-10 py-5 mx-10 mt-5 h-[85%]'>
+      <div className='bg-white lg:px-10 py-5 mx-5 lg:mx-10 mt-5 h-[85%]'>
         <StudentTable setFormData={setFormData} setAction={setAction} setOpen={setOpen} isLoading={isLoading} />
         <StudentModal formData={formData} setFormData={setFormData} setAction={setAction} action={action} setOpen={setOpen} open={open} isLoading={isLoading} />
       </div>

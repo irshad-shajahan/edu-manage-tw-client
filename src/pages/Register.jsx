@@ -54,7 +54,7 @@ function Register() {
   return (
     <div className='w-full h-screen flex flex-col justify-center items-center font-mont'>
       <h2 className='font-[600] text-4xl -mt-14 mb-14 text-red-500'>EduManage.</h2>
-      <div className='w-[40%] h-[70%] bg-white shadow-xl flex flex-col items-center justify-center px-20 gap-10'>
+      <div className='w-[90%] lg:w-[40%] h-[60%] lg:h-[70%] bg-white shadow-xl flex flex-col items-center justify-center px-5 lg:px-20 gap-10'>
         <h5 className='font-bold text-xl'>Register New Teacher</h5>
         <Input 
           className='' 
